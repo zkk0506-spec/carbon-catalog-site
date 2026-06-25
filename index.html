@@ -38,7 +38,7 @@
     .btn.light{background:#fff;color:var(--ink);border-color:#cad5e1}
     .btn.light:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-1px)}
     .hero{position:relative;overflow:hidden;min-height:660px;background:#07111f;color:#fff}
-    .hero::before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(3,7,13,.94) 0%,rgba(3,7,13,.80) 44%,rgba(3,7,13,.36) 100%),url('assets/images/product-range.webp') center/cover no-repeat;filter:saturate(.9)}
+    .hero::before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(3,7,13,.94) 0%,rgba(3,7,13,.80) 44%,rgba(3,7,13,.36) 100%),url('product-range.webp') center/cover no-repeat;filter:saturate(.9)}
     .hero::after{content:"";position:absolute;inset:0;background-image:linear-gradient(120deg,rgba(255,255,255,.05) 0 1px,transparent 1px 56px);opacity:.5}
     .hero-inner{position:relative;z-index:2;max-width:1360px;margin:0 auto;padding:92px 5vw 76px;display:grid;grid-template-columns:1.02fr .8fr;gap:48px;align-items:center}
     .eyebrow{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;background:rgba(255,255,255,.11);border:1px solid rgba(255,255,255,.18);font-size:13px;text-transform:uppercase;letter-spacing:.08em;font-weight:900;color:#e4efff;margin-bottom:20px}
@@ -102,7 +102,7 @@
     .doc-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
     .mini{font-size:12px;padding:8px 11px;min-height:auto}
     .rfq{background:linear-gradient(135deg,#07111f,#0b274d);color:#fff;border-radius:32px;padding:38px;box-shadow:var(--shadow);overflow:hidden;position:relative}
-    .rfq::before{content:"";position:absolute;right:-160px;top:-160px;width:400px;height:400px;background:url('assets/logo.webp') center/contain no-repeat;opacity:.08}
+    .rfq::before{content:"";position:absolute;right:-160px;top:-160px;width:400px;height:400px;background:url('logo.webp') center/contain no-repeat;opacity:.08}
     .rfq > *{position:relative;z-index:1}
     .rfq h2{color:#fff}
     .rfq .lead{color:#d5e2f3}
@@ -135,7 +135,7 @@
   </div>
   <header>
     <nav class="nav">
-      <a class="brand" href="#home"><img src="assets/logo-small.png" alt="Eastern Land Logo"><span>Eastern Land<br><small>Carbon Fiber Catalog</small></span></a>
+      <a class="brand" href="#home"><img src="logo-small.png" alt="Eastern Land Logo"><span>Eastern Land<br><small>Carbon Fiber Catalog</small></span></a>
       <div class="navlinks">
         <a href="#products">Products</a>
         <a href="#tubes">Tubes</a>
@@ -158,7 +158,7 @@
           <p>One online catalog for carbon fiber tubes, rods, sheets, plates, fabric, raw materials and CNC machined composite parts. Built for global buyers who need clear product categories, technical options and fast RFQ support.</p>
           <div class="hero-actions">
             <a class="btn primary" href="#products">Browse Product Catalog</a>
-            <a class="btn light" href="assets/docs/product-catalog.pdf" download>Download PDF Catalog</a>
+            <a class="btn light" href="product-catalog.pdf" download>Download PDF Catalog</a>
           </div>
           <div class="hero-badges">
             <span class="badge">One-Stop Procurement</span>
@@ -169,7 +169,7 @@
           </div>
         </div>
         <aside class="hero-card">
-          <img src="assets/images/product-range.webp" alt="Carbon fiber product range: sheets, tubes, rods, fabric, raw materials and custom parts">
+          <img src="product-range.webp" alt="Carbon fiber product range: sheets, tubes, rods, fabric, raw materials and custom parts">
           <div class="hero-stats">
             <div class="stat"><b>8</b><span>Main Catalog Categories</span></div>
             <div class="stat"><b>2014</b><span>Supply Chain Experience</span></div>
@@ -191,14 +191,14 @@
           <a class="btn light" href="#finder">Use Specification Finder</a>
         </div>
         <div class="grid grid4">
-          <a class="card product-card" href="#sheets"><img loading="lazy" src="assets/images/cat-sheets.webp" alt="Carbon Fiber Sheets"><div class="body"><h3>Carbon Fiber Sheets</h3><p>Flat sheets, panels and plates with custom thickness, size, surface and CNC machining.</p><span class="link">View Sheets →</span></div></a>
-          <a class="card product-card" href="#tubes"><img loading="lazy" src="assets/images/cat-tubes.webp" alt="Carbon Fiber Tubes"><div class="body"><h3>Carbon Fiber Tubes</h3><p>Round, square and rectangular tubes with custom diameter, wall thickness and length.</p><span class="link">View Tubes →</span></div></a>
-          <a class="card product-card" href="#rods"><img loading="lazy" src="assets/images/cat-rods.webp" alt="Carbon Fiber Rods"><div class="body"><h3>Carbon Fiber Rods</h3><p>Solid rods and pultruded rods for lightweight support, structures and sports equipment.</p><span class="link">View Rods →</span></div></a>
-          <a class="card product-card" href="#materials"><img loading="lazy" src="assets/images/cat-fabric.webp" alt="Carbon Fiber Fabric"><div class="body"><h3>Carbon Fiber Fabric</h3><p>Plain weave, twill weave, UD fabric, prepreg and reinforcement materials.</p><span class="link">View Fabric →</span></div></a>
-          <a class="card product-card" href="#sheets"><img loading="lazy" src="assets/images/cat-plates-strips.webp" alt="Carbon Fiber Plates and Strips"><div class="body"><h3>Plates & Strips</h3><p>Thin plates, strips, decorative pieces and precision carbon fiber components.</p><span class="link">View Plates →</span></div></a>
-          <a class="card product-card" href="#materials"><img loading="lazy" src="assets/images/cat-raw-materials.webp" alt="Carbon Fiber Raw Materials"><div class="body"><h3>Raw Materials</h3><p>Carbon fiber fabric, chopped fiber, tow, yarn and composite materials.</p><span class="link">View Raw Materials →</span></div></a>
-          <a class="card product-card" href="#custom"><img loading="lazy" src="assets/images/cat-custom-parts.webp" alt="Custom Carbon Fiber Parts"><div class="body"><h3>Custom Machined Parts</h3><p>CNC cut parts, brackets, frames, panels and drawing-based production.</p><span class="link">View Custom Parts →</span></div></a>
-          <a class="card product-card" href="#applications"><img loading="lazy" src="assets/images/cat-finished-products.webp" alt="Finished Carbon Fiber Products"><div class="body"><h3>Finished Products</h3><p>Sports components, automotive parts, accessories and customized consumer products.</p><span class="link">View Applications →</span></div></a>
+          <a class="card product-card" href="#sheets"><img loading="lazy" src="cat-sheets.webp" alt="Carbon Fiber Sheets"><div class="body"><h3>Carbon Fiber Sheets</h3><p>Flat sheets, panels and plates with custom thickness, size, surface and CNC machining.</p><span class="link">View Sheets →</span></div></a>
+          <a class="card product-card" href="#tubes"><img loading="lazy" src="cat-tubes.webp" alt="Carbon Fiber Tubes"><div class="body"><h3>Carbon Fiber Tubes</h3><p>Round, square and rectangular tubes with custom diameter, wall thickness and length.</p><span class="link">View Tubes →</span></div></a>
+          <a class="card product-card" href="#rods"><img loading="lazy" src="cat-rods.webp" alt="Carbon Fiber Rods"><div class="body"><h3>Carbon Fiber Rods</h3><p>Solid rods and pultruded rods for lightweight support, structures and sports equipment.</p><span class="link">View Rods →</span></div></a>
+          <a class="card product-card" href="#materials"><img loading="lazy" src="cat-fabric.webp" alt="Carbon Fiber Fabric"><div class="body"><h3>Carbon Fiber Fabric</h3><p>Plain weave, twill weave, UD fabric, prepreg and reinforcement materials.</p><span class="link">View Fabric →</span></div></a>
+          <a class="card product-card" href="#sheets"><img loading="lazy" src="cat-plates-strips.webp" alt="Carbon Fiber Plates and Strips"><div class="body"><h3>Plates & Strips</h3><p>Thin plates, strips, decorative pieces and precision carbon fiber components.</p><span class="link">View Plates →</span></div></a>
+          <a class="card product-card" href="#materials"><img loading="lazy" src="cat-raw-materials.webp" alt="Carbon Fiber Raw Materials"><div class="body"><h3>Raw Materials</h3><p>Carbon fiber fabric, chopped fiber, tow, yarn and composite materials.</p><span class="link">View Raw Materials →</span></div></a>
+          <a class="card product-card" href="#custom"><img loading="lazy" src="cat-custom-parts.webp" alt="Custom Carbon Fiber Parts"><div class="body"><h3>Custom Machined Parts</h3><p>CNC cut parts, brackets, frames, panels and drawing-based production.</p><span class="link">View Custom Parts →</span></div></a>
+          <a class="card product-card" href="#applications"><img loading="lazy" src="cat-finished-products.webp" alt="Finished Carbon Fiber Products"><div class="body"><h3>Finished Products</h3><p>Sports components, automotive parts, accessories and customized consumer products.</p><span class="link">View Applications →</span></div></a>
         </div>
       </div>
     </section>
@@ -241,7 +241,7 @@
 
     <section class="section" id="tubes">
       <div class="container split">
-        <div class="image-panel"><img loading="lazy" src="assets/images/carbon-fiber-tubes-types.webp" alt="Types of carbon fiber tubes by process, shape, surface pattern and application"></div>
+        <div class="image-panel"><img loading="lazy" src="carbon-fiber-tubes-types.webp" alt="Types of carbon fiber tubes by process, shape, surface pattern and application"></div>
         <div class="text-panel">
           <div class="smalltitle">Carbon Fiber Tubes</div>
           <h2>Carbon Fiber Tubes by Process, Shape and Surface</h2>
@@ -263,8 +263,8 @@
           <div><div class="smalltitle">Sheets & Plates</div><h2>Carbon Fiber Sheets, Plates & CNC Processing</h2><p class="lead">Display sheets by weave, surface and application. Then connect the category page to processing capabilities such as CNC cutting, drilling, chamfering, slotting and engraving.</p></div>
         </div>
         <div class="grid grid2">
-          <div class="image-panel"><img loading="lazy" src="assets/images/carbon-fiber-sheets-types.webp" alt="Types of carbon fiber sheets by weave, surface and application"></div>
-          <div class="image-panel"><img loading="lazy" src="assets/images/custom-sheet-processing.webp" alt="Custom carbon fiber sheet processing capabilities"></div>
+          <div class="image-panel"><img loading="lazy" src="carbon-fiber-sheets-types.webp" alt="Types of carbon fiber sheets by weave, surface and application"></div>
+          <div class="image-panel"><img loading="lazy" src="custom-sheet-processing.webp" alt="Custom carbon fiber sheet processing capabilities"></div>
         </div>
       </div>
     </section>
@@ -281,7 +281,7 @@
             <div class="feature"><i>3</i><div><h4>Custom Support</h4><p>Diameter, length, surface pattern and cut-to-length service.</p></div></div>
           </div>
         </div>
-        <div class="image-panel"><img loading="lazy" src="assets/images/carbon-fiber-rods-types.webp" alt="Carbon fiber rods types and applications"></div>
+        <div class="image-panel"><img loading="lazy" src="carbon-fiber-rods-types.webp" alt="Carbon fiber rods types and applications"></div>
       </div>
     </section>
 
@@ -291,8 +291,8 @@
           <div><div class="smalltitle">Fabric & Raw Materials</div><h2>Carbon Fiber Fabric, Prepreg and Raw Material Supply</h2><p class="lead">Raw material buyers need weave type, fabric structure, tow size, supply form, application and resin compatibility.</p></div>
         </div>
         <div class="grid grid2">
-          <div class="image-panel"><img loading="lazy" src="assets/images/carbon-fiber-fabric-types.webp" alt="Carbon fiber fabric types and applications"></div>
-          <div class="image-panel"><img loading="lazy" src="assets/images/carbon-fiber-raw-materials.webp" alt="Carbon fiber raw materials product options"></div>
+          <div class="image-panel"><img loading="lazy" src="carbon-fiber-fabric-types.webp" alt="Carbon fiber fabric types and applications"></div>
+          <div class="image-panel"><img loading="lazy" src="carbon-fiber-raw-materials.webp" alt="Carbon fiber raw materials product options"></div>
         </div>
       </div>
     </section>
@@ -303,9 +303,9 @@
           <div><div class="smalltitle">Custom Composite Parts</div><h2>Drawing-Based Custom Parts and Production Workflow</h2><p class="lead">This part turns a product catalog into a lead-generation website. It shows buyers how to send drawings or samples, receive engineering review, confirm feasibility and move into production.</p></div>
         </div>
         <div class="grid grid3">
-          <div class="image-panel"><img loading="lazy" src="assets/images/common-custom-parts.webp" alt="Common custom carbon fiber parts"></div>
-          <div class="image-panel"><img loading="lazy" src="assets/images/cooperation-method.webp" alt="Cooperation method from drawing or sample to engineering review and quote"></div>
-          <div class="image-panel"><img loading="lazy" src="assets/images/custom-order-process.webp" alt="Custom order process"></div>
+          <div class="image-panel"><img loading="lazy" src="common-custom-parts.webp" alt="Common custom carbon fiber parts"></div>
+          <div class="image-panel"><img loading="lazy" src="cooperation-method.webp" alt="Cooperation method from drawing or sample to engineering review and quote"></div>
+          <div class="image-panel"><img loading="lazy" src="custom-order-process.webp" alt="Custom order process"></div>
         </div>
       </div>
     </section>
@@ -316,9 +316,9 @@
           <div><div class="smalltitle">Applications & Factory Capability</div><h2>Use Cases, Production Process and Equipment</h2><p class="lead">Application and capability images help overseas buyers understand the product range, manufacturing process and factory supply capacity.</p></div>
         </div>
         <div class="grid grid3">
-          <div class="image-panel"><img loading="lazy" src="assets/images/applications.webp" alt="Carbon fiber applications and use cases"></div>
-          <div class="image-panel"><img loading="lazy" src="assets/images/production-process.webp" alt="Carbon fiber production process"></div>
-          <div class="image-panel"><img loading="lazy" src="assets/images/production-equipment.webp" alt="Carbon fiber production equipment"></div>
+          <div class="image-panel"><img loading="lazy" src="applications.webp" alt="Carbon fiber applications and use cases"></div>
+          <div class="image-panel"><img loading="lazy" src="production-process.webp" alt="Carbon fiber production process"></div>
+          <div class="image-panel"><img loading="lazy" src="production-equipment.webp" alt="Carbon fiber production equipment"></div>
         </div>
       </div>
     </section>
@@ -329,20 +329,20 @@
           <div><div class="smalltitle">Uploaded Visual Assets</div><h2>Full Image Material Gallery</h2><p class="lead">All key visual materials from the uploaded product catalog have been placed into the website assets folder and displayed here for easy review.</p></div>
         </div>
         <div class="grid grid3">
-          <div class="doc-card gallery-card"><img loading="lazy" src="assets/images/product-range.webp" alt="Product range"><div class="caption"><h3>Product Range</h3></div></div>
-          <div class="doc-card gallery-card"><img loading="lazy" src="assets/images/carbon-fiber-sheets-types.webp" alt="Carbon fiber sheets types"><div class="caption"><h3>Carbon Fiber Sheets</h3></div></div>
-          <div class="doc-card gallery-card"><img loading="lazy" src="assets/images/custom-sheet-processing.webp" alt="Custom sheet processing"><div class="caption"><h3>Sheet Processing</h3></div></div>
-          <div class="doc-card gallery-card"><img loading="lazy" src="assets/images/common-custom-parts.webp" alt="Common custom parts"><div class="caption"><h3>Common Custom Parts</h3></div></div>
-          <div class="doc-card gallery-card"><img loading="lazy" src="assets/images/cooperation-method.webp" alt="Cooperation method"><div class="caption"><h3>Cooperation Method</h3></div></div>
-          <div class="doc-card gallery-card"><img loading="lazy" src="assets/images/carbon-fiber-tubes-types.webp" alt="Carbon fiber tubes types"><div class="caption"><h3>Carbon Fiber Tubes</h3></div></div>
-          <div class="doc-card gallery-card"><img loading="lazy" src="assets/images/carbon-fiber-rods-types.webp" alt="Carbon fiber rods types"><div class="caption"><h3>Carbon Fiber Rods</h3></div></div>
-          <div class="doc-card gallery-card"><img loading="lazy" src="assets/images/carbon-fiber-fabric-types.webp" alt="Carbon fiber fabric types"><div class="caption"><h3>Carbon Fiber Fabric</h3></div></div>
-          <div class="doc-card gallery-card"><img loading="lazy" src="assets/images/carbon-fiber-raw-materials.webp" alt="Carbon fiber raw materials"><div class="caption"><h3>Raw Materials</h3></div></div>
-          <div class="doc-card gallery-card"><img loading="lazy" src="assets/images/applications.webp" alt="Applications"><div class="caption"><h3>Applications</h3></div></div>
-          <div class="doc-card gallery-card"><img loading="lazy" src="assets/images/lifestyle-carbon-products.webp" alt="Lifestyle carbon products"><div class="caption"><h3>Lifestyle Carbon Products</h3></div></div>
-          <div class="doc-card gallery-card"><img loading="lazy" src="assets/images/production-process.webp" alt="Production process"><div class="caption"><h3>Production Process</h3></div></div>
-          <div class="doc-card gallery-card"><img loading="lazy" src="assets/images/production-equipment.webp" alt="Production equipment"><div class="caption"><h3>Production Equipment</h3></div></div>
-          <div class="doc-card gallery-card"><img loading="lazy" src="assets/images/custom-order-process.webp" alt="Custom order process"><div class="caption"><h3>Custom Order Process</h3></div></div>
+          <div class="doc-card gallery-card"><img loading="lazy" src="product-range.webp" alt="Product range"><div class="caption"><h3>Product Range</h3></div></div>
+          <div class="doc-card gallery-card"><img loading="lazy" src="carbon-fiber-sheets-types.webp" alt="Carbon fiber sheets types"><div class="caption"><h3>Carbon Fiber Sheets</h3></div></div>
+          <div class="doc-card gallery-card"><img loading="lazy" src="custom-sheet-processing.webp" alt="Custom sheet processing"><div class="caption"><h3>Sheet Processing</h3></div></div>
+          <div class="doc-card gallery-card"><img loading="lazy" src="common-custom-parts.webp" alt="Common custom parts"><div class="caption"><h3>Common Custom Parts</h3></div></div>
+          <div class="doc-card gallery-card"><img loading="lazy" src="cooperation-method.webp" alt="Cooperation method"><div class="caption"><h3>Cooperation Method</h3></div></div>
+          <div class="doc-card gallery-card"><img loading="lazy" src="carbon-fiber-tubes-types.webp" alt="Carbon fiber tubes types"><div class="caption"><h3>Carbon Fiber Tubes</h3></div></div>
+          <div class="doc-card gallery-card"><img loading="lazy" src="carbon-fiber-rods-types.webp" alt="Carbon fiber rods types"><div class="caption"><h3>Carbon Fiber Rods</h3></div></div>
+          <div class="doc-card gallery-card"><img loading="lazy" src="carbon-fiber-fabric-types.webp" alt="Carbon fiber fabric types"><div class="caption"><h3>Carbon Fiber Fabric</h3></div></div>
+          <div class="doc-card gallery-card"><img loading="lazy" src="carbon-fiber-raw-materials.webp" alt="Carbon fiber raw materials"><div class="caption"><h3>Raw Materials</h3></div></div>
+          <div class="doc-card gallery-card"><img loading="lazy" src="applications.webp" alt="Applications"><div class="caption"><h3>Applications</h3></div></div>
+          <div class="doc-card gallery-card"><img loading="lazy" src="lifestyle-carbon-products.webp" alt="Lifestyle carbon products"><div class="caption"><h3>Lifestyle Carbon Products</h3></div></div>
+          <div class="doc-card gallery-card"><img loading="lazy" src="production-process.webp" alt="Production process"><div class="caption"><h3>Production Process</h3></div></div>
+          <div class="doc-card gallery-card"><img loading="lazy" src="production-equipment.webp" alt="Production equipment"><div class="caption"><h3>Production Equipment</h3></div></div>
+          <div class="doc-card gallery-card"><img loading="lazy" src="custom-order-process.webp" alt="Custom order process"><div class="caption"><h3>Custom Order Process</h3></div></div>
         </div>
       </div>
     </section>
@@ -353,15 +353,15 @@
           <div><div class="smalltitle">Compliance Documents</div><h2>RoHS & MSDS Document Center</h2><p class="lead">Certification and report images are included as website thumbnails. Original PDFs are packaged in the download folder for buyer review.</p></div>
         </div>
         <div class="grid grid3">
-          <div class="doc-card"><img loading="lazy" src="assets/certificates/rohs-sheet-certificate.webp" alt="RoHS certificate for carbon fiber sheet"><div class="doc-body"><h3>Carbon Fiber Sheet RoHS Certificate</h3><p>T300 carbon fiber sheet certificate thumbnail.</p><div class="doc-actions"><a class="btn primary mini" href="assets/docs/rohs-sheet-certificate.pdf" download>Download PDF</a><a class="btn light mini" href="assets/docs/rohs-sheet-report.pdf" download>RoHS Report</a><a class="btn light mini" href="assets/docs/msds-sheet-report.pdf" download>MSDS</a></div></div></div>
-          <div class="doc-card"><img loading="lazy" src="assets/certificates/rohs-tube-certificate.webp" alt="RoHS certificate for carbon fiber tube"><div class="doc-body"><h3>Carbon Fiber Tube RoHS Certificate</h3><p>T300 carbon fiber tube certificate thumbnail.</p><div class="doc-actions"><a class="btn primary mini" href="assets/docs/rohs-tube-certificate.pdf" download>Download PDF</a><a class="btn light mini" href="assets/docs/rohs-tube-report.pdf" download>RoHS Report</a><a class="btn light mini" href="assets/docs/msds-tube-report.pdf" download>MSDS</a></div></div></div>
-          <div class="doc-card"><img loading="lazy" src="assets/certificates/rohs-fabric-certificate.webp" alt="RoHS certificate for carbon fiber fabric"><div class="doc-body"><h3>Carbon Fiber Fabric RoHS Certificate</h3><p>T300 carbon fiber fabric certificate thumbnail.</p><div class="doc-actions"><a class="btn primary mini" href="assets/docs/rohs-fabric-certificate.pdf" download>Download PDF</a><a class="btn light mini" href="assets/docs/rohs-fabric-report.pdf" download>RoHS Report</a><a class="btn light mini" href="assets/docs/msds-fabric-report.pdf" download>MSDS</a></div></div></div>
-          <div class="doc-card"><img loading="lazy" src="assets/certificates/rohs-sheet-report-cover.webp" alt="RoHS report cover for sheet"><div class="doc-body"><h3>Sheet RoHS Report Cover</h3></div></div>
-          <div class="doc-card"><img loading="lazy" src="assets/certificates/rohs-tube-report-cover.webp" alt="RoHS report cover for tube"><div class="doc-body"><h3>Tube RoHS Report Cover</h3></div></div>
-          <div class="doc-card"><img loading="lazy" src="assets/certificates/rohs-fabric-report-cover.webp" alt="RoHS report cover for fabric"><div class="doc-body"><h3>Fabric RoHS Report Cover</h3></div></div>
-          <div class="doc-card"><img loading="lazy" src="assets/certificates/msds-sheet-cover.webp" alt="MSDS sheet cover"><div class="doc-body"><h3>Sheet MSDS Cover</h3></div></div>
-          <div class="doc-card"><img loading="lazy" src="assets/certificates/msds-tube-cover.webp" alt="MSDS tube cover"><div class="doc-body"><h3>Tube MSDS Cover</h3></div></div>
-          <div class="doc-card"><img loading="lazy" src="assets/certificates/msds-fabric-cover.webp" alt="MSDS fabric cover"><div class="doc-body"><h3>Fabric MSDS Cover</h3></div></div>
+          <div class="doc-card"><img loading="lazy" src="rohs-sheet-certificate.webp" alt="RoHS certificate for carbon fiber sheet"><div class="doc-body"><h3>Carbon Fiber Sheet RoHS Certificate</h3><p>T300 carbon fiber sheet certificate thumbnail.</p><div class="doc-actions"><a class="btn primary mini" href="rohs-sheet-certificate.pdf" download>Download PDF</a><a class="btn light mini" href="rohs-sheet-report.pdf" download>RoHS Report</a><a class="btn light mini" href="msds-sheet-report.pdf" download>MSDS</a></div></div></div>
+          <div class="doc-card"><img loading="lazy" src="rohs-tube-certificate.webp" alt="RoHS certificate for carbon fiber tube"><div class="doc-body"><h3>Carbon Fiber Tube RoHS Certificate</h3><p>T300 carbon fiber tube certificate thumbnail.</p><div class="doc-actions"><a class="btn primary mini" href="rohs-tube-certificate.pdf" download>Download PDF</a><a class="btn light mini" href="rohs-tube-report.pdf" download>RoHS Report</a><a class="btn light mini" href="msds-tube-report.pdf" download>MSDS</a></div></div></div>
+          <div class="doc-card"><img loading="lazy" src="rohs-fabric-certificate.webp" alt="RoHS certificate for carbon fiber fabric"><div class="doc-body"><h3>Carbon Fiber Fabric RoHS Certificate</h3><p>T300 carbon fiber fabric certificate thumbnail.</p><div class="doc-actions"><a class="btn primary mini" href="rohs-fabric-certificate.pdf" download>Download PDF</a><a class="btn light mini" href="rohs-fabric-report.pdf" download>RoHS Report</a><a class="btn light mini" href="msds-fabric-report.pdf" download>MSDS</a></div></div></div>
+          <div class="doc-card"><img loading="lazy" src="rohs-sheet-report-cover.webp" alt="RoHS report cover for sheet"><div class="doc-body"><h3>Sheet RoHS Report Cover</h3></div></div>
+          <div class="doc-card"><img loading="lazy" src="rohs-tube-report-cover.webp" alt="RoHS report cover for tube"><div class="doc-body"><h3>Tube RoHS Report Cover</h3></div></div>
+          <div class="doc-card"><img loading="lazy" src="rohs-fabric-report-cover.webp" alt="RoHS report cover for fabric"><div class="doc-body"><h3>Fabric RoHS Report Cover</h3></div></div>
+          <div class="doc-card"><img loading="lazy" src="msds-sheet-cover.webp" alt="MSDS sheet cover"><div class="doc-body"><h3>Sheet MSDS Cover</h3></div></div>
+          <div class="doc-card"><img loading="lazy" src="msds-tube-cover.webp" alt="MSDS tube cover"><div class="doc-body"><h3>Tube MSDS Cover</h3></div></div>
+          <div class="doc-card"><img loading="lazy" src="msds-fabric-cover.webp" alt="MSDS fabric cover"><div class="doc-body"><h3>Fabric MSDS Cover</h3></div></div>
         </div>
       </div>
     </section>
